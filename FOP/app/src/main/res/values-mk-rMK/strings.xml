@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_closed">Drawer Closed</string>
+    <string name="app_name" >ФОП</string>
+    <string name="all">Сите</string>
+    <string name="change_language">Смени Јазик</string>
+    <string name="logout">Одјависе</string>
+</resources>

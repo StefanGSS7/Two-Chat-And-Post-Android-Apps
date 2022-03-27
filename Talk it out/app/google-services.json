@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "405478058772",
+    "firebase_url": "https://talk-it-out-55b8f.firebaseio.com",
+    "project_id": "talk-it-out-55b8f",
+    "storage_bucket": "talk-it-out-55b8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405478058772:android:374b94173a3ce59d11f001",
+        "android_client_info": {
+          "package_name": "com.main.beyond.TiO"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405478058772-m06tv37itm9qu26qq8sn24l0unthtjob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDU_Sr5i_0n41c2Rj5xub9gK6qCvzFO8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405478058772-m06tv37itm9qu26qq8sn24l0unthtjob.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

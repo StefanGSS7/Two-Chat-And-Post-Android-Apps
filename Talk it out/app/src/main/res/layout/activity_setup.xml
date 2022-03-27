@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".SetupActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/setupLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/saveInfoFirstName"
+            android:layout_width="0dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/login"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="text|textPersonName"
+            android:padding="15dp"
+            app:layout_constraintBottom_toTopOf="@+id/saveInfoLastName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/saveInfoBirthday"
+            android:layout_width="0dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="80dp"
+            android:background="@drawable/password"
+            android:ems="10"
+            android:hint="Date of birth"
+            android:inputType="number|date"
+            android:padding="15dp"
+            app:layout_constraintBottom_toTopOf="@+id/saveInfoCreateAccount"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/saveInfoLastName"
+            android:layout_width="0dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/middleinput"
+            android:ems="10"
+            android:hint="Last Name"
+            android:inputType="text|textPersonName"
+            android:padding="15dp"
+            app:layout_constraintBottom_toTopOf="@+id/saveInfoBirthday"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/addProfilePicture"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/proba1aaaatocka"
+            app:layout_constraintBottom_toTopOf="@+id/saveInfoFirstName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/saveInfoCreateAccount"
+            android:layout_width="162dp"
+            android:layout_height="38dp"
+            android:layout_marginBottom="124dp"
+            android:background="@drawable/signinbutton"
+            android:text="Register"
+            android:textColor="#FFFFFF"
+            android:textColorLink="@color/colorPrimaryDark"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/imagePickerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/avatar1"
+            android:layout_width="0dp"
+            android:layout_height="128dp"
+            android:layout_marginTop="100dp"
+            android:background="#FFFFFF"
+            android:contentDescription="TODO"
+            android:onClick="imageClicked"
+            android:src="@drawable/avatar1"
+            app:layout_constraintEnd_toStartOf="@+id/avatar2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/avatar3"
+            android:layout_width="0dp"
+            android:layout_height="128dp"
+            android:layout_marginTop="104dp"
+            android:contentDescription="TODO"
+            android:onClick="imageClicked"
+            android:src="@drawable/avatar3"
+            app:layout_constraintEnd_toStartOf="@+id/avatar4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/avatar1" />
+
+        <ImageView
+            android:id="@+id/avatar4"
+            android:layout_width="0dp"
+            android:layout_height="128dp"
+            android:layout_marginTop="104dp"
+            android:contentDescription="TODO"
+            android:onClick="imageClicked"
+            android:src="@drawable/avatar4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/avatar3"
+            app:layout_constraintTop_toBottomOf="@+id/avatar2" />
+
+        <ImageView
+            android:id="@+id/avatar2"
+            android:layout_width="0dp"
+            android:layout_height="128dp"
+            android:layout_marginTop="100dp"
+            android:contentDescription="TODO"
+            android:onClick="imageClicked"
+            android:src="@drawable/avatar2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/avatar1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/confirmImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="116dp"
+            android:background="@drawable/signinbutton"
+            android:text="Confirm"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/avatar4"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

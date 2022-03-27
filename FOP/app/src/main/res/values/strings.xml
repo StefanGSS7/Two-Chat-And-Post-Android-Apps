@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FOP</string>
+
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_closed">Drawer Closed</string>
+
+    <string name="all">All</string>
+    <string name="change_language">Change Language</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+
+</resources>

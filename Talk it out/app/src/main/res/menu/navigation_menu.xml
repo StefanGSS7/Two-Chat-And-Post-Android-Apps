@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_sekusalnaEksplatacija"
+        android:title="Сексуална Експлатација"/>
+
+    <item
+        android:id="@+id/nav_trudovaEksplatacija"
+        android:title="Трудова Експлатација"/>
+
+    <item
+        android:id="@+id/nav_prinudniBrakovi"
+        android:title="Принудни Бракови"/>
+
+    <item
+        android:id="@+id/nav_transplatacijaNaOrgani"
+        android:title="Трансплатација на Органи"/>
+
+    <item
+        android:id="@+id/nav_posvojuvanjeDeca"
+        android:title="Посвојување Деца"/>
+
+    <item
+        android:id="@+id/nav_userMessages"
+        android:title="Пораки"/>
+
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Одјависе"/>
+
+
+
+
+
+</menu>
